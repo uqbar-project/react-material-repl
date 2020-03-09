@@ -1,7 +1,7 @@
 {
   "name": "react-material-repl",
   "version": "0.1.0",
-  "description": "a react REPL component",
+  "description": "a material REPL component for React",
   "main": "./dist/main.js",
   "author": {
     "name": "Uqbar",
@@ -11,7 +11,7 @@
   "contributors": [
     "Lucas Alan Silvestri <silvestrilucasalan@gmail.com> (https://github.com/51lv3str1)"
   ],
-  "license": "MIT",
+  "license": "GPL-3.0",
   "scripts": {
     "build": "rm -rf ./dist && tsc && cp ./main.css ./dist",
     "prepare": "npm run build",
