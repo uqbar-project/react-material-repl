@@ -1,0 +1,36 @@
+{
+  "name": "react-material-repl",
+  "version": "0.1.0",
+  "description": "a react REPL component",
+  "main": "./dist/main.js",
+  "author": {
+    "name": "Uqbar",
+    "email": "org.uqbar@gmail.com",
+    "url": "http://www.uqbar.org/"
+  },
+  "contributors": [
+    "Lucas Alan Silvestri <silvestrilucasalan@gmail.com> (https://github.com/51lv3str1)"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc && cp ./main.css ./dist",
+    "prepare": "npm run build",
+    "test": "echo \"No test specified\""
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
+    "clsx": "^1.1.0",
+    "ramda": "^0.27.0",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "@types/ramda": "^0.26.43",
+    "@types/shortid": "0.0.29",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "typescript": "^3.8.3"
+  }
+}
