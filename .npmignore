@@ -2,8 +2,8 @@
 /tmp
 /src
 **/.gitkeep
-main.css
-main.ts
+./main.css
+./main.ts
 .eslintrc.js
 .gitignore
 .travis.yml
